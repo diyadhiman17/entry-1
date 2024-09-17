@@ -1,9 +1,118 @@
-p { 
-color: blue; 
-background-color: black; 
-font-size: 18px; 
-padding: 10px; 
-font-family: 'Arial', sans-serif; 
-font-weight: bold;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: 'Tahoma', sans-serif;
+    background-color: #fef6f9;
+    line-height: 1.8;
+    padding: 20px;
+}
+
+/* heading */
+h1 {
+    text-align: center;
+    font-size: 3.0rem;
+    color: #e17075;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: 550;
+}
+
+/* intro para */
+p {
+    text-align: center;
+    font-size: 1.0rem;
+    margin-bottom: 40px;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #777;
+    font-style: italic;
+}
+
+/* subheading */
+h2 {
+    text-align: left;
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+    color: #d16ba5;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* whole list */
+ul {
+    list-style: none;
+    padding-left: 0;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+/*  (lessons) */
+li {
+    background-color: #fff0f6;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    text-align: left;
+   
+}
+
+li:hover {
+    transform: translateY(-5px);
+}
+
+/* lesson titles */
+h3 {
+    font-size: 1.7rem;
+    color: #e17075;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+/* blockquote  */
+blockquote {
+    font-style: italic;
+    color: #a58cb0;
+    padding-left: 15px;
+    border-left: 5px solid #e17075;
+    margin-top: 10px;
+}
+
+/* Blockquote text */
+blockquote p {
+    margin: 0;
+    text-align: left;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    p, blockquote p {
+        font-size: 1rem;
+    }
+
+    ul {
+        padding: 0 15px;
+    }
+} 
+
 
